@@ -164,7 +164,12 @@ ul.contact-buttons {
 
 }
 
-figcaption {
+.contact-buttons li:nth-child(even){
+  background: white;
+  color: black;
+}
+
+.caption {
   opacity: .7;
   text-align: center;
 }
