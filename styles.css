@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.site-nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -89,7 +89,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-.card {
+.info-card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.info-card:hover {
   border-color: #ff99ff;
 }
 
@@ -126,7 +126,12 @@ ul.skills {
   transition: all .2s;
 }
 
-.itch-card {
+.itch-logo {
+  width: 220px;
+  height: 150px;
+} 
+
+.itch-button {
   background-color: #222;
   border-bottom: 4px solid black;
   height: 150px;
@@ -134,12 +139,8 @@ ul.skills {
   border-radius: 6px;
   text-align: center;
 }
-.itch-logo {
-  width: 220px;
-  height: 150px;
-}
 
-.itch-card:hover{
+.itch-button:hover {
   transform: scale(1.05);
   transition: all .2s;
 }
@@ -258,4 +259,3 @@ a.social:hover {
   }
 
 }
-
